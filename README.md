@@ -20,4 +20,13 @@ une roue qui entoure la caisse de resonance ou qui y est abaissé contre la cord
 
 une roue de plus petite qui est plus facile a mettre en place 
 
+# la position des frettes
 
+Pour déterminer les positions des frettes sur une corde d'un violoncelle en fonction de sa longueur, nous utilisons la règle des frettes, qui suit une division logarithmique. La position de chaque frette est calculée en utilisant la formule suivante :
+ 
+d_n = L - (L / (2 ^ (n / 12)))
+
+ou:
+- `d_n` est la distance entre le sillet et la n-ième frette,
+- `L` est la longueur vibrante de la corde (du sillet au chevalet),
+- `n` est le numéro de la frette.
