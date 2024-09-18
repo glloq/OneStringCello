@@ -1,7 +1,7 @@
 # OneStringCello
 l'idée est de faire un systeme qui viend jouer d'un instrument a corde frotée de type violon, violoncelle, etc.
 
-l'objectif est de faire un test de plusieurs techniques pour jouer sur un instrument a corde
+l'objectif est de faire un test de plusieurs techniques pour jouer sur un instrument a une corde afin d'avoir une base adaptable jusqu'a 4 cordes dans l'avenir
 
 ## les choix techniques pour les accords
 
@@ -16,9 +16,11 @@ avec un driver et un moteur pas a pas, on peut faire un reglage des positions vi
 
 ## les choix techniques pour l'archet
 
-une roue qui entoure la caisse de resonance ou qui y est abaissé contre la corde a la reception d'une noteOn
+- une roue qui entoure la caisse de resonance ou qui y est abaissé contre la corde a la reception d'une noteOn
+- une roue de plus petite au dessus de la corde qui est plus facile a mettre en place 
+- un systeme de corde fermée
+- un archet directement controlé (beaucoup plus encombrant)
 
-une roue de plus petite qui est plus facile a mettre en place 
 
 # la position des frettes
 
@@ -30,3 +32,16 @@ ou:
 - `d_n` est la distance entre le sillet et la n-ième frette,
 - `L` est la longueur vibrante de la corde (du sillet au chevalet),
 - `n` est le numéro de la frette.
+
+## Longueurs des Cordes Vibrantes pour Instruments à Cordes Frottées
+
+| Instrument         | Longueur de corde vibrante (en mm) |
+|--------------------|------------------------------------|
+| Violon             | 325 - 330 mm                       |
+| Alto               | 370 - 380 mm                       |
+| Viole d'amour      | 400 - 450 mm                       |
+| Nyckelharpa        | 400 - 450 mm                       |
+| Violoncelle        | 680 - 700 mm                       |
+| Viole de gambe     | 700 - 750 mm                       |
+| Contrebasse        | 1040 - 1060 mm                     |
+
