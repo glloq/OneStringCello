@@ -13,6 +13,7 @@ avec un mpc23017 et deuxs uln2803, nous pouvons controller 16 solenoides (500mA 
 
 ### moteurs pas a pas
 avec un driver et un moteur pas a pas, on peut faire un reglage des positions via software.
+on a deux facons de faire : avec un doigt toujour en appui ou avec un systeme mecanique ou electromecanique pour lever le doigt.
 
 ## Types d'archets et méthodes de mise en vibration des cordes
 
