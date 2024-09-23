@@ -1,7 +1,8 @@
 # OneStringCello
-l'idée est de faire un systeme qui viend jouer d'un instrument a corde frotée de type violon, violoncelle, etc.
+l'idée finale est de faire un systeme qui viend jouer d'un instrument a corde frotée de type violon, violoncelle, etc.
 
-l'objectif est de faire un test de plusieurs techniques pour jouer sur un instrument a une corde afin d'avoir une base adaptable jusqu'a 4 cordes dans l'avenir
+l'objectif de ce repo est de faire une liste de plusieurs techniques pour jouer sur un instrument a une corde afin d'avoir une base adaptable jusqu'a 4 cordes dans l'avenir
+il va donc il y avoir des schema synthetique pour montrer le principe de base et differents liens vers des exemples et references 
 
 ## les choix techniques pour les accords
 
@@ -19,14 +20,29 @@ on a deux facons de faire : avec un doigt toujour en appui ou avec un systeme me
 
 | Type d'archet ou méthode         | Avantages                                               | Inconvénients                                             |
 |----------------------------------|---------------------------------------------------------|-----------------------------------------------------------|
-| **Archet classique (poils naturels ou synthétiques)** | - Son riche et expressif<br>- Contrôle dynamique fin     | - Complexe à motoriser pour un mouvement fluide            |
-| **Roue de friction (style vielle à roue)**  | - Son continu<br>- Simple à motoriser                    | - Moins de contrôle sur les nuances dynamiques             |
+| **Archet classique (poils naturels ou synthétiques)** | - Son riche et expressif<br>- Contrôle dynamique fin    | - Complexe à motoriser pour un mouvement fluide |
 | **Archet rotatif**               | - Facile à automatiser<br>- Action régulière             | - Moins flexible pour les variations d’intensité           |
 | **Ficelle ou bande en plastique rotative** | - Facile à motoriser<br>- Produit un son continu         | - Moins de contrôle fin sur la dynamique                   |
 | **Disque en caoutchouc ou plastique rotatif** | - Bonne adhérence<br>- Son continu                       | - Qualité sonore moins raffinée que l’archet classique      |
 | **Archet électromagnétique (excitation magnétique)** | - Pas de contact physique<br>- Contrôle précis des fréquences et amplitude | - Nécessite une corde métallique<br>- Complexité électronique |
 
 
+### Exemple Archet classique
+le principe est de permettre un deplacement de l'archet avec un moteur (pas a pas ?) en fonction de la velocité de la note recue, d'un servomoteur pour selectionner la ou les cordes a jouer et un systeme pour descendre l'archet vers les cordes avec differents parametre.
+![Schema archet](https://github.com/glloq/OneStringCello/blob/main/img/archet.png?raw=true)
+
+### Exemple Archet rotatif
+le principe est d'utiliser une roue qui tourne autour du violon et de mettre en contact l'archet en deplacant l'instrument ou la roue avec un servomoteur avec une certaine force vitesse etc ...
+https://www.youtube.com/watch?v=xs0mP2cOmJs
+
+### Exemple Ficelle ou bande en plastique rotative
+
+![Schema ficelle](https://github.com/glloq/OneStringCello/blob/main/img/corde.png?raw=true)
+
+### Exemple Disque en caoutchouc ou plastique rotatif
+
+la version la plus simple a faire 
+https://www.youtube.com/watch?v=JA3tXr941iI
 
 # la position des frettes
 
