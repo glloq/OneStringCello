@@ -31,7 +31,7 @@ Nous pouvons utiliser un systeme actioné via un servomoteur ou un solenoide dir
 
 
 ### Exemple Archet classique
-le principe est de permettre un deplacement de l'archet avec un moteur (pas a pas ?) en fonction de la velocité de la note recue, d'un servomoteur pour selectionner la ou les cordes a jouer et un systeme pour descendre l'archet vers les cordes avec differents parametre. 
+le principe est de permettre un deplacement de l'archet avec un moteur en fonction de la velocité de la note recue, d'un servomoteur pour selectionner la ou les cordes a jouer et un systeme pour descendre l'archet vers les cordes avec differents parametre. 
 ![Schema archet](https://github.com/glloq/OneStringCello/blob/main/img/archet.png?raw=true)
 
 ### Exemple Archet rotatif
@@ -41,14 +41,15 @@ le principe est d'utiliser une roue qui tourne autour du violon et de mettre en 
 https://www.youtube.com/watch?v=xs0mP2cOmJs
 
 ### Exemple Ficelle ou bande en plastique rotative
-
+un des systeme mecanique le plus compact  mais il faudra exeprimenter avec differents materiaux.
 ![Schema ficelle](https://github.com/glloq/OneStringCello/blob/main/img/corde.png?raw=true)
 
 ### Exemple Disque en caoutchouc ou plastique rotatif
+
+des roues de friction sont entrainé en rotation via un moteur et mise en contact a l'aide de sevo ou solenoide.
 ![Schema ficelle](https://github.com/glloq/OneStringCello/blob/main/img/roue.png?raw=true)
 
-la version la plus simple a faire 
-https://www.youtube.com/watch?v=JA3tXr941iI
+exemple violano virtuoso => https://www.youtube.com/watch?v=JA3tXr941iI
 
 # la position des frettes
 
