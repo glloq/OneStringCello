@@ -14,7 +14,10 @@ avec un mpc23017 et deuxs uln2803, nous pouvons controller 16 solenoides (500mA 
 
 ### moteurs pas a pas
 avec un driver et un moteur pas a pas, on peut faire un reglage des positions via software.
-on a deux facons de faire : avec un doigt toujour en appui ou avec un systeme mecanique ou electromecanique pour lever le doigt.
+on a deux facons de faire : avec un doigt toujour en appui ou avec un systeme mecanique ou electromecanique pour lever le doigt. 
+![guide lineaire](https://github.com/glloq/OneStringGuitar/blob/main/img/guide%20lineaire.png)
+
+Nous pouvons utiliser un systeme actioné via un servomoteur ou un solenoide directement sur le patin du rail lineaire ou deporté en fixe (pour eviter des cables electrique en mouvements)
 
 ## Types d'archets et méthodes de mise en vibration des cordes
 
@@ -28,11 +31,12 @@ on a deux facons de faire : avec un doigt toujour en appui ou avec un systeme me
 
 
 ### Exemple Archet classique
-le principe est de permettre un deplacement de l'archet avec un moteur (pas a pas ?) en fonction de la velocité de la note recue, d'un servomoteur pour selectionner la ou les cordes a jouer et un systeme pour descendre l'archet vers les cordes avec differents parametre.
+le principe est de permettre un deplacement de l'archet avec un moteur (pas a pas ?) en fonction de la velocité de la note recue, d'un servomoteur pour selectionner la ou les cordes a jouer et un systeme pour descendre l'archet vers les cordes avec differents parametre. 
 ![Schema archet](https://github.com/glloq/OneStringCello/blob/main/img/archet.png?raw=true)
 
 ### Exemple Archet rotatif
 le principe est d'utiliser une roue qui tourne autour du violon et de mettre en contact l'archet en deplacant l'instrument ou la roue avec un servomoteur avec une certaine force vitesse etc ...
+
 https://www.youtube.com/watch?v=xs0mP2cOmJs
 
 ### Exemple Ficelle ou bande en plastique rotative
