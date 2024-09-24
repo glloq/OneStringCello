@@ -14,7 +14,7 @@ avec un mpc23017 et deuxs uln2803, nous pouvons controller 16 solenoides (500mA 
 
 ### moteurs pas a pas
 avec un driver et un moteur pas a pas, on peut faire un reglage des positions via software.
-on a deux facons de faire : avec un doigt toujour en appui ou avec un systeme mecanique ou electromecanique pour lever le doigt. 
+on a deux facons de faire : avec un doigt toujours en appui ou avec un systeme mecanique ou electromecanique pour lever le doigt. 
 ![guide lineaire](https://github.com/glloq/OneStringGuitar/blob/main/img/guide%20lineaire.png)
 
 Nous pouvons utiliser un systeme actioné via un servomoteur ou un solenoide directement sur le patin du rail lineaire ou deporté en fixe (pour eviter des cables electrique en mouvements)
@@ -36,6 +36,7 @@ le principe est de permettre un deplacement de l'archet avec un moteur (pas a pa
 
 ### Exemple Archet rotatif
 le principe est d'utiliser une roue qui tourne autour du violon et de mettre en contact l'archet en deplacant l'instrument ou la roue avec un servomoteur avec une certaine force vitesse etc ...
+![guide lineaire](https://github.com/glloq/OneStringCello/blob/main/img/archet%20rotatif.png)
 
 https://www.youtube.com/watch?v=xs0mP2cOmJs
 
@@ -44,6 +45,7 @@ https://www.youtube.com/watch?v=xs0mP2cOmJs
 ![Schema ficelle](https://github.com/glloq/OneStringCello/blob/main/img/corde.png?raw=true)
 
 ### Exemple Disque en caoutchouc ou plastique rotatif
+![Schema ficelle](https://github.com/glloq/OneStringCello/blob/main/img/roue.png?raw=true)
 
 la version la plus simple a faire 
 https://www.youtube.com/watch?v=JA3tXr941iI
