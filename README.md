@@ -1,5 +1,5 @@
 # OneStringCello
-l'idée finale est de faire un systeme qui viend jouer d'un instrument a corde frotée de type violon, violoncelle, etc.
+l'idée finale est de faire un systeme qui viend jouer d'un instrument a corde frotée de type violon, violoncelle, etc... via des messages midi.
 
 l'objectif de ce repo est de faire une liste de plusieurs techniques pour jouer sur un instrument a une corde afin d'avoir une base adaptable jusqu'a 4 cordes dans l'avenir
 il va donc il y avoir des schema synthetique pour montrer le principe de base et differents liens vers des exemples et references 
